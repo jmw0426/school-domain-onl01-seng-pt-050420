@@ -4,7 +4,6 @@ describe 'School' do
   before :each do
     @school = School.new("Test School")
   end
-end
 
   describe "::new" do
     it 'has an empty roster when initialized' do
