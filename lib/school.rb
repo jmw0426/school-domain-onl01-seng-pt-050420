@@ -2,7 +2,7 @@ class School
   attr_accessor :name, :roster, :grades
   # attr_reader 
   
-  hash = {}
+  # hash = {}
 
   def initialize(name)
     @roster = {}
@@ -11,7 +11,7 @@ class School
   end
   
   def add_student(name, grades)
-    @roster[grades] ||= @roster[grades] = []
+    @roster[grades] ||=  []
     if !@roster.include?(name)
       @roster[grades] << name
     end
